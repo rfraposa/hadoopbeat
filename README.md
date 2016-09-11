@@ -8,11 +8,12 @@ Build the container (feel free to tag the image with your own custom tag):
 
 Start the container like:
 
-`docker run -it rich/hadoopbeat /etc/bootstrap.sh –bash`
+```docker run -it rich/hadoopbeat /etc/bootstrap.sh –bash```
 
 You will need to run the following commands to setup a project for the custom beat:
 
-`cd /root/work/src/github.com/rfraposa && /opt/rh/python27/root/usr/bin/cookiecutter $GOPATH/src/github.com/elastic/beats/generate/beat
-make setup`
+```cd /root/work/src/github.com/rfraposa 
+/opt/rh/python27/root/usr/bin/cookiecutter $GOPATH/src/github.com/elastic/beats/generate/beat
+make setup```
 
 
