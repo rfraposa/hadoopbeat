@@ -17,6 +17,5 @@ ENV GOPATH=/root/work GOROOT=/usr/local/go PATH=/opt/rh/python27/root/usr/bin:/u
 
 RUN go get github.com/elastic/beats; exit 0
 
-RUN pip install cookiecutter virtualenv
 # RUN cd /root/work/src/github.com/rfraposa && /opt/rh/python27/root/usr/bin/cookiecutter $GOPATH/src/github.com/elastic/beats/generate/beat
 # RUN cd /root/work/src/github.com/rfraposa/hadoopbeat && make setup
