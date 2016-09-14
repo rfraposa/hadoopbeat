@@ -1,6 +1,6 @@
 # hadoopbeats
-A beat that connects to a Hadoop cluster and queries the JMX metrics. The Docker image sets up the environment to write
-your own custom beat, so there is some work to do after starting the container.
+A beat that connects to a Hadoop cluster and queries the JMX metrics. This Docker image sets up the environment to write
+your own custom beat, so use it as a starting point for a Beat that runs alongside a Hadoop cluster.
 
 Build the container (feel free to tag the image with your own custom tag):
 
