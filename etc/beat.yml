@@ -1,0 +1,9 @@
+################### Hadoopbeat Configuration Example #########################
+
+############################# Hadoopbeat ######################################
+
+hadoopbeat:
+  # Defines how often an event is sent to the output
+  period: 5s
+  hadoophost: "127.0.0.1"
+  hadoopport: "50070"

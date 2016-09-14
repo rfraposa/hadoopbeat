@@ -1,0 +1,5 @@
+= Hadoopbeat Docs
+
+Welcome to the Hadoopbeat documentation.
+
+

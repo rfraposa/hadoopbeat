@@ -1,0 +1,6 @@
+- key: hadoopbeat
+  title: hadoopbeat
+  description:
+  fields:
+    - name: test
+      type: text
